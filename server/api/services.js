@@ -4,12 +4,12 @@ export default defineEventHandler(() => {
   return [
     {
       id: 1,
-      title: 'React',
+      title: 'NuxtJS',
       description: {
         en: 'I build modern and advanced websites and applications with React or Expo by React Native.',
-        id_ID: 'Saya membuat situs web dan aplikasi modern menggunakan React atau Expo dari React Native.',
+        id_ID: 'ฉันสร้างเว็บไซต์และแอปพลิเคชันที่ทันสมัยและล้ำหน้าด้วย Nuxt 3',
       },
-      icon: 'devicon:react',
+      icon: 'devicon:nuxtjs',
       image: null,
     },
     {
@@ -17,19 +17,19 @@ export default defineEventHandler(() => {
       title: 'Vue',
       description: {
         en: 'I use Vue, a modern JavaScript and Typescript framework, while making dynamic and static websites and applications.',
-        id_ID: 'Terkadang saya juga menggunakan Vue, framework JavaScript dan Typescript sumber terbuka modern, ketika membuat website maupun aplikasi.',
+        id_ID: 'ฉันใช้ Vue ซึ่งเป็นเฟรมเวิร์ก JavaScript และ Typescript สมัยใหม่ ในขณะที่สร้างเว็บไซต์และแอปพลิเคชันแบบไดนามิกและแบบคงที่',
       },
       icon: 'devicon:vuejs',
       image: null,
     },
     {
       id: 3,
-      title: 'Kotlin',
+      title: 'NodeJS',
       description: {
         en: 'For an app, I also use Kotlin.',
         id_ID: 'Untuk membuat aplikasi, saya juga menggunakan Kotlin.',
       },
-      icon: 'devicon:kotlin',
+      icon: 'devicon:nodejs',
       image: null,
     },
     {
@@ -37,7 +37,7 @@ export default defineEventHandler(() => {
       title: 'Python',
       description: {
         en: 'In Cybersecurity, I use Python, SQL, Java/JavaScript, C++, etc. But Python is the language I use more often.',
-        id_ID: 'Dalam bidang Keamanan Siber, saya menggunakan Python, SQL, Java/JavaScript, C++, dll. Tapi Python adalah bahasa yang lebih sering saya gunakan.',
+        id_ID: 'ในระบบรักษาความปลอดภัยทางไซเบอร์ ฉันใช้ Python, SQL, Java/JavaScript, C++ ฯลฯ แต่ Python เป็นภาษาที่ฉันใช้บ่อยกว่า',
       },
       icon: 'devicon:python',
       image: null,

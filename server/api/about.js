@@ -6,7 +6,7 @@ export default defineEventHandler(() => {
       id: 1,
       description: {
         en: 'English.',
-     id_ID: 'Indonesia.',
+     id_ID: 'Thai.',
       },
     },
   ]
