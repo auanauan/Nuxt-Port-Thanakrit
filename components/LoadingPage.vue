@@ -1,40 +1,57 @@
 <template>
   <div class="h-screen w-full flex items-center justify-center">
-    <h2 class="animate">
-      <img src="/images/loading.png" class="w-40">
+    <h2 class="spinner-container">
+      <span class="loader"></span>
     </h2>
   </div>
 </template>
 
 <style scoped>
-@keyframes load {
-    0% {
-        opacity: 0.08;
-        /* font-size: 10px; */
-        /* font-weight: 400; */
-        filter: blur(5px);
-        letter-spacing: 3px;
-    }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
 
-    100% {
-        /* opacity: 1; */
-        /* font-size: 12px; */
-        /* font-weight:600; */
-        /* filter: blur(0); */
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.animate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    margin: auto;
-    /* width: 350px; */
-    /* font-size:26px; */
-    font-family: Helvetica, sans-serif, Arial;
-    animation: load 1.2s infinite 0s ease-in-out;
-    animation-direction: alternate;
-    text-shadow: 0 0 1px white;
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px auto;
+  position: relative;
+  color: hsl(37, 90%, 51%);
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite alternate;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
+  }
+
+  33% {
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
+  }
+
+  66% {
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
+  }
+
+  100% {
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
+  }
 }
 </style>

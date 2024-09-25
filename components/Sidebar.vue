@@ -59,7 +59,7 @@ function toggleMenu() {
               Github
             </p>
 
-            <a href="https://github.com/ThanakritMangkang" class="contact-link" target="_blank">Thanakrit Mangkang</a>
+            <a href="https://github.com/auanauan" class="contact-link" target="_blank">auanauan</a>
           </div>
         </li>
 
@@ -73,7 +73,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://id.linkedin.com/in/thanakrit-mangkang-298a7b211" class="contact-link" target="_blank">Thanakrit Mangkang</a>
+            <a href="https://id.linkedin.com/in/thanakrit-mangkang-298a7b211" class="contact-link" target="_blank">Thanakrit</a>
           </div>
         </li>
 
@@ -87,7 +87,7 @@ function toggleMenu() {
               Location
             </p>
 
-            <address>Thailand</address>
+            <address>Thailand, BKK</address>
           </div>
         </li>
       </ul>

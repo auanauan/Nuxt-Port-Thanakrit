@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Resume',
+  title: 'Work Experince',
 })
 </script>
 
@@ -16,33 +16,46 @@ useHead({
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Company
+            Company Iconsiam Signature
           </h4>
-          <span>From — Until</span>
+          <span>Jan 2024 — Present</span>
           <p class="timeline-item-desc">
-            Location
+            Location BKK
           </p>
           <p class="timeline-text">
-            Position
+            Position IT Officer
           </p>
         </li>
         
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Company
+            Company KEC(Thailand)Co.,ltd.
           </h4>
-          <span>From — Until</span>
+          <span>Jan 2022 — December 2023</span>
           <p class="timeline-item-desc">
-            Location
+            Location Lampoon
           </p>
           <p class="timeline-text">
-            Position
+            Position IT & Network Engineer
+          </p>
+        </li>
+
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Company 3BB (Thailand) CO.,ltd.
+          </h4>
+          <span>March 2021 — December 2022</span>
+          <p class="timeline-item-desc">
+            Location Chiang Mai
+          </p>
+          <p class="timeline-text">
+            Position Technician
           </p>
         </li>
       </ol>
     </section>
 
-    <section class="skill">
+    <!-- <section class="skill">
       <ul class="skills-list content-card">
         <li class="skills-item">
           <div class="title-wrapper">
@@ -58,6 +71,6 @@ useHead({
         </li>
 
       </ul>
-    </section>
+    </section> -->
   </article>
 </template>

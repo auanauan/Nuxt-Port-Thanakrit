@@ -119,22 +119,5 @@ const { data: about } = await useFetch('/api/about')
         </div>
       </section>
     </div>
-
-    <!-- clients -->
-
-    <section class="clients">
-      <h3 class="h3 clients-title">
-        Clients
-      </h3>
-
-      <ul class="clients-list has-scrollbar">
-        <li class="clients-item">
-          <a href="https://example.com" target="_blank">
-            <img src="/.png" alt="Company">
-          </a>
-        </li>
-
-      </ul>
-    </section>
   </article>
 </template>

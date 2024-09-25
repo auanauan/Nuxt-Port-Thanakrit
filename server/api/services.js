@@ -24,20 +24,20 @@ export default defineEventHandler(() => {
     },
     {
       id: 3,
-      title: 'NodeJS',
+      title: 'PostgreSql',
       description: {
-        en: 'For an app, I also use Kotlin.',
-        id_ID: 'Untuk membuat aplikasi, saya juga menggunakan Kotlin.',
+        en: 'For Design Database With SQL language',
+        id_ID: 'สำหรับการออกแบบฐานข้อมูลด้วยภาษา SQL',
       },
-      icon: 'devicon:nodejs',
+      icon: 'devicon:postgresql',
       image: null,
     },
     {
       id: 4,
       title: 'Python',
       description: {
-        en: 'In Cybersecurity, I use Python, SQL, Java/JavaScript, C++, etc. But Python is the language I use more often.',
-        id_ID: 'ในระบบรักษาความปลอดภัยทางไซเบอร์ ฉันใช้ Python, SQL, Java/JavaScript, C++ ฯลฯ แต่ Python เป็นภาษาที่ฉันใช้บ่อยกว่า',
+        en: 'In Cybersecurity, I use Python, SQL, JavaScript, etc. But Python is the language I use more often.',
+        id_ID: 'ในระบบรักษาความปลอดภัยทางไซเบอร์ ฉันใช้ Python, SQL, JavaScript ฯลฯ แต่ Python เป็นภาษาที่ฉันใช้บ่อยกว่า',
       },
       icon: 'devicon:python',
       image: null,

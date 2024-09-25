@@ -1,6 +1,5 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-import Flicking from '@egjs/vue3-flicking'
 import '@egjs/vue3-flicking/dist/flicking.css'
 import { Icon } from '@iconify/vue';
 
@@ -52,12 +51,6 @@ function closeItem() {
 
     <section class="projects">
       <ul class="filter-list">
-        <li class="filter-item">
-          <button :class="{ active: activeCategory === 0 }" @click="changeFilter(0)">
-            All
-          </button>
-        </li>
-
         <li v-for="category in categories" :key="category.id" class="filter-item" @click="changeFilter(category.id)">
           <button :class="{ active: activeCategory === category.id }">
             {{ locale === 'en' ? category.title?.en : category.title?.id_ID }}
